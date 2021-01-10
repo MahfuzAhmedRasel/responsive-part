@@ -13,6 +13,7 @@ body{
 }
 .profile p{
     padding: 50px 0;
+    color: dimgray;
 }
 .profile{
     height: 500px;
@@ -23,7 +24,6 @@ body{
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     padding: 50px;
-    height:;
 }
 .btn-link{
     text-decoration: none;
@@ -48,10 +48,22 @@ body{
 
 @media (max-width: 600px) {
     .section{
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        padding: 50px;
-        height:;
+    
+    }
+    .profile h2, p {
+        text-align: center;
+        font;
+    }
+    .profile img{
+        height: 300px;
+        margin: 0 auto;
+    }
+    .profile{
+        padding: 0;
+    }
+    .btn-link{
+        position: relative;
+        left: 38%;
     }
     }
